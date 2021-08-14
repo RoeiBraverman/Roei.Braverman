@@ -1,0 +1,70 @@
+:root{
+    --sky: #728da0;
+    --sand: #9f7755;
+    --lighter_sky: #a3c0c6;
+}
+
+*{
+    color: black;
+}
+
+h1{
+    color: var(--sand);
+    text-align: center;
+    background-color: var(--lighter_sky);
+    font-size: 80px;
+}
+
+line{
+    color: var(--sky);
+    background-color: aliceblue;
+    border: solid var(--sky) 2px;
+}
+
+body{
+    background-image: url(footvolley\ photo.jpg);
+    background-size: 500px;
+}
+
+.navbar {
+    background-color: none;
+    overflow: hidden;
+  }
+
+.navbar a {
+    float: left;
+    color: var(--lighter_sky);
+    background-color: none;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .navbar a.active {
+    background-color: none;
+    color: none;
+  }
+
+  input{
+      background-color: var(--lighter_sky);
+      margin: 5px;
+      border-color: black;
+      padding: 5px;
+      border: 2px solid;
+  }
+
+textarea{
+    background-color: var(--lighter_sky);
+    margin: 5px;
+    border-color: black;
+    padding: 5px;
+    border: 2px solid;
+}
+
+

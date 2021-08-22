@@ -4,32 +4,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CV.css">
     <title>Roei Braverman CV</title>
+    <script src="CV.js"></script>
 </head>
-<body>
-    <h1>Roei Braverman</h1>
+<body onload= "ChangeHeader()">
+  <div class="grid-continer">
+      <div class="header">
+      <h1 id="HeaderOfCv">Roei Braverman</h1>
+    </div>
     <div class="navbar">
-        <a class="active" href="#home"></a>
-        <a href="#Education">Education</a>
-        <a href="#experience">Expirance</a>
-        <a href="#personal information">Personal Information</a>
-        <a href="#Titles">Titles</a>
-        <a href="#Projects">Projects</a>
+
+        <div class="navbar-element">
+            <a href="#education">Education</a>
+        </div>
+        <div class="navbar-element">
+            <a href="#experience">Experience</a>
+        </div>
+        <div class="navbar-element">
+            <a href="#Personal Information">Personal Information</a>
+        </div>
+        <div class="navbar-element">
+            <a href="#Titles" >Titles</a>
+        </div>
+        <div class="navbar-element">
+            <a href="#Projects">Projects</a>
+        </div>
       </div>
 
-      <h1>Contact with me!</h1>
-    <line>Name:</line>
-    <input />
-    <br />
-    <line>Phone:</line>
-    <input />
-    <br />
-    <line>Email:</line>
-    <input />
-    <br />
-    <line for="YourRequests">Write here your message:</line>
-    <br>
-    <textarea name="YourRequests" id="YourRequests" cols="60" rows="10"></textarea>
-    <br>
-    <input type="Submit" value="Submit">
+      <div class="contact-form"> 
+        
+        <form>
+        <h3>Contact Me!</h3>
+        <label for="Full-Name">Full Name: </label>
+        <input type="text" id="Full-Name" ><br>
+        <label for="Email">Email: </label>
+        <input type="text" id="Email" ><br>
+        <label for="Phone">Phone: </label>
+        <input type="text" id="Phone"><br>
+        <label for="Subject">Subject: </label><br>
+        <input type="text" id="Subject"><br>
+        <label for="message">Message: </label><br>
+        <textarea id="message" cols="35" rows="7"> </textarea><br>
+        <input type="submit" value="Send a message">
+
+    </form>
+      </div>
+</div>
 </body>
 </html>

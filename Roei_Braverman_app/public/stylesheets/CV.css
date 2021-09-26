@@ -8,7 +8,7 @@
 
 
 body{
-  background-image: url(footvolley\ photo.jpg);
+  background-image: url(../images/footvolley_photo.jpg);
   background-size: 700px;
   grid-area: body;
 }
